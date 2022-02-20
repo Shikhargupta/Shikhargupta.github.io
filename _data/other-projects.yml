@@ -8,6 +8,14 @@
     - thing: PyTorch
     - thing: Deep Learning
 
+- name: Robust Outlier Detection
+  url: 
+  code: 
+  description: 
+  used:
+    - thing: Matlab
+    - thing: Computer Vision
+
 - name: Preference Based Reinforcement Learning
   url: 
   code: 
