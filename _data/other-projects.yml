@@ -17,9 +17,9 @@
     - thing: Computer Vision
 
 - name: Preference Based Reinforcement Learning
-  url: 
+  url: https://virtual.eeml.eu/poster_34.html
   code: 
-  description: Final project for Machine Learning course at UMich. Our team explored how reward functions can be curated using user preferences eliminating expert domain knowledge. Gaussian process was used to model the reward function.
+  description: Final team project for Machine Learning course at UMich. We improved upon DeepMind's work on training an agent using human preferences.
   used:
     - thing: Python
     - thing: Tensorflow
@@ -44,7 +44,7 @@
     - thing: Computer Vision
 
 - name: House Pricing - Advanced Regression Techniques (Kaggle)
-  url: https://github.com/Shikhargupta/kaggle_house_pricing
+  url: https://towardsdatascience.com/kaggle-basics-walkthrough-of-my-first-data-science-challenge-9bf898dc0182
   code: https://github.com/Shikhargupta/kaggle_house_pricing
   description: Visualised and pre-processed the famous Ames Housing dataset. Applied regression techniques to predict house prices. Ended up in top 10% of the leaderboard.
   used:
