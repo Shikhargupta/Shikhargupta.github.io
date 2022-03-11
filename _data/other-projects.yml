@@ -1,8 +1,7 @@
 - name: Image Colorization
   url: https://shikhargupta.github.io/image-colorization
   code: https://shikhargupta.github.io/image-colorization
-  description: Deep Learning model hosted on AWS to colorize black and white or grayscale images.
-  The project is currently under progress.
+  description: Deep Learning model hosted on AWS to colorize black and white or grayscale images. The project is currently under progress.
   used:
     - thing: Python
     - thing: AWS
@@ -12,10 +11,7 @@
 - name: Robust Outlier Detection
   url: 
   code: 
-  description: An alternating minimization based algorithm to identify and 
-  eliminate outliers from sensor data without any prior knowledge of noise
-  distribution or threshold. The algorithm will be tested against commonly used
-  Computer Vision applications. The project is currently under progress.
+  description: An alternating minimization based algorithm to identify and eliminate outliers from sensor data without any prior knowledge of noise distribution or threshold. The algorithm will be tested against commonly used Computer Vision applications. The project is currently under progress.
   used:
     - thing: Matlab
     - thing: Computer Vision
@@ -24,11 +20,7 @@
 - name: Preference Based Reinforcement Learning
   url: https://virtual.eeml.eu/poster_34.html
   code: 
-  description: Final team project for Machine Learning course at UMich. 
-  We explored and improved upon DeepMind's work on training an agent using human preferences.
-  I was responsible to experiment with training of the reward function. I was 
-  able to replace a neural network (as originally stated in the paper) with a less complex
-  Gaussian Process for simpler environments like CartPole and MovingDot.
+  description: Final team project for Machine Learning course at UMich. We explored and improved upon DeepMind's work on training an agent using human preferences. I was responsible to experiment with training of the reward function. I was able to replace a neural network (as originally stated in the paper) with a less complex Gaussian Process for simpler environments like CartPole and MovingDot.
   used:
     - thing: Python
     - thing: Tensorflow
@@ -37,10 +29,7 @@
 - name: ML From Scratch
   url: 
   code: 
-  description: A collection of Machine Learning algorithms written from scratch. 
-  I created this Github repository to help beginners in ML get an understanding of 
-  the working of some of the popular algorithms. I intend this work to be ever 
-  growing with new algorithms and models being added in the future.
+  description: A collection of Machine Learning algorithms written from scratch. I created this Github repository to help beginners in ML get an understanding of the working of some of the popular algorithms. I intend this work to be ever growing with new algorithms and models being added in the future.
   used:
     - thing: Python
     - thing: Numpy
@@ -49,9 +38,7 @@
 - name: Driving In The Matrix
   url: https://github.com/Shikhargupta/rob535-perception
   code: https://github.com/Shikhargupta/rob535-perception
-  description: Final team project for Self-Driving-Cars course at UMich.
-  I was on the perception team and was responsible to implement a Faster-RCNN
-  based model to detect cars in images generated from synthetic dataset (GTA V).
+  description: Final team project for Self-Driving-Cars course at UMich. I was on the perception team and was responsible to implement a Faster-RCNN based model to detect cars in images generated from synthetic dataset (GTA V).
 
   used:
     - thing: Python
@@ -61,10 +48,7 @@
 - name: House Pricing - Advanced Regression Techniques (Kaggle)
   url: https://towardsdatascience.com/kaggle-basics-walkthrough-of-my-first-data-science-challenge-9bf898dc0182
   code: https://github.com/Shikhargupta/kaggle_house_pricing
-  description: In order to understand the complete pipeline of data science
-  I played around with the famous Ames Housing dataset. I visualised and pre-processed
-  the data and applied regression techniques to predict house prices. I eventually ended
-  up in top 20% of the leaderboard.
+  description: In order to understand the complete pipeline of data science I played around with the famous Ames Housing dataset. I visualised and pre-processed the data and applied regression techniques to predict house prices. I eventually ended up in top 20% of the leaderboard.
   used:
     - thing: Python
     - thing: Pandas
@@ -73,9 +57,7 @@
 - name: Spiking Neural Network
   url: https://github.com/Shikhargupta/Spiking-Neural-Network
   code: https://github.com/Shikhargupta/Spiking-Neural-Network
-  description: As a part of my bachelor's thesis I developed a Python library for Spiking Neural Network with simplified equations. 
-  Later, along with a batchmate I designed an asynchronous hardware accelerator for the library on FPGA. 
-  The python library has 600+ stars and 200+ forks on Github.
+  description: As a part of my bachelor's thesis I developed a Python library for Spiking Neural Network with simplified equations. Later, along with a batchmate I designed an asynchronous hardware accelerator for the library on FPGA. The python library has 600+ stars and 200+ forks on Github.
   used:
     - thing: Python
     - thing: Numpy
