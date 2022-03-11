@@ -27,8 +27,8 @@
     - thing: Reinforcement Learning
 
 - name: ML From Scratch
-  url: 
-  code: 
+  url: https://github.com/Shikhargupta/MLFromScratch
+  code: https://github.com/Shikhargupta/MLFromScratch
   description: A collection of Machine Learning algorithms written from scratch. I created this Github repository to help beginners in ML get an understanding of the working of some of the popular algorithms. I intend this work to be ever growing with new algorithms and models being added in the future.
   used:
     - thing: Python
