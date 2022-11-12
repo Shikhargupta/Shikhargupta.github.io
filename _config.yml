@@ -22,12 +22,20 @@ social:
   - title: linkedin
     url: https://www.linkedin.com/in/gshikhar02/
 
-navigation:
-  - {title: Mail, icon: envelope, url: "mailto:niklasbuschmann@users.noreply.github.com"}
-  - {title: Github, icon: github, url: "https://github.com/niklasbuschmann/"}
-  - {title: Feed, icon: rss, url: "/feed.xml"}
+# Layout
 
-remote_theme: niklasbuschmann/contrast
+show_excerpts: true        # show article excerpts on the home page
+show_frame: true           # adds a gray frame to the site
+show_sidebar: false        # show a sidebar instead of the usual header
+
+navigation:                # accepts {file, title, url, icon, sidebaricon}
+  - {file: "blog.html"}
+  - {file: "README.md"}
+
+external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
+  - {title: Mail, icon: envelope, url: "mailto:niklasbuschmann@users.noreply.github.com"}
+  - {title: Github, icon: github, url: "https://github.com/niklasbuschmann/contrast"}
+  - {title: Subscribe, icon: rss, url: "/feed.xml"}
 
 # Build settings
 markdown: kramdown
