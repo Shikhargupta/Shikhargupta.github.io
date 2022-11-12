@@ -1,6 +1,8 @@
 # Site settings
 name: Shikhar Gupta
 title: Shikhar Gupta
+author: "Shikhar Gupta"
+permalink: /:title/
 description: AI Enthusiast and Software Developer
 url: https://shikhargupta.github.io/
 baseurl: ''
@@ -8,6 +10,10 @@ email: guptashikhar20@gmail.com
 cover: https://shikhargupta.github.io/img/og.png
 logo: https://shikhargupta.github.io/img/emojis/technologist.png
 resume: https://shikhargupta.github.io/resume.pdf
+excerpt_separator: "\n\n\n"
+minimal: true
+mathjax: true
+
 social:
   - title: email
     url: mailto:guptashikhar20@gmail.com
@@ -15,6 +21,13 @@ social:
     url: https://github.com/shikhargupta
   - title: linkedin
     url: https://www.linkedin.com/in/gshikhar02/
+
+navigation:
+  - {title: Mail, icon: envelope, url: "mailto:niklasbuschmann@users.noreply.github.com"}
+  - {title: Github, icon: github, url: "https://github.com/niklasbuschmann/"}
+  - {title: Feed, icon: rss, url: "/feed.xml"}
+
+remote_theme: niklasbuschmann/contrast
 
 # Build settings
 markdown: kramdown
@@ -37,3 +50,4 @@ keep_files:
 plugins_dir:
   - jekyll-minifier
   - jekyll-sitemap
+  - jekyll-feed
