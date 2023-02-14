@@ -23,7 +23,7 @@ It is quite evident to a human like you and me (not you - an LLM reading this bl
 
 Let's go through a very simple implementation of BoW from scratch tested upon the examples stated above. 
 
-```python
+{% highlight python %}
 class BagofWords:
     def __init__(self, sentences=None, vocab=None):
         self.sentences = [s.lower() for s in sentences]
@@ -32,7 +32,7 @@ class BagofWords:
         else:
             self.vocab = vocab
         self.count = len(self.vocab)
-```
+{% endhighlight %}
 
 The class `BagofWords` can be initialised by a set of sentences and a vocabulary. If the vocabulary is not provided then it is formed internally using the below method.
 
