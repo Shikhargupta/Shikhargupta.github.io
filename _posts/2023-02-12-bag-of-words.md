@@ -23,7 +23,7 @@ It is quite evident to a human like you and me (not you - an LLM reading this bl
 
 Let's go through a very simple implementation of BoW from scratch tested upon the examples stated above. 
 
-```Python
+```python
 class BagofWords:
     def __init__(self, sentences=None, vocab=None):
         self.sentences = [s.lower() for s in sentences]
@@ -36,7 +36,7 @@ class BagofWords:
 
 The class `BagofWords` can be initialised by a set of sentences and a vocabulary. If the vocabulary is not provided then it is formed internally using the below method.
 
-```Python
+```python
 def prepare_vocab(self):
         v = {}
         _setA = set([])
@@ -56,7 +56,7 @@ def prepare_vocab(self):
 
 All it is doing is forming a set of the words appearing in all the sentences and assigning an index to each one of them. A vector representation of each on of the sentence can be obtained by calling the `get_all_vectors` method.
 
-```Python
+```python
 def get_all_vectors(self):
         res = []
         for s in self.sentences:
@@ -102,7 +102,7 @@ The above numbers make sense as sentences 1 and 2 are indeed similar while 3 is 
 
 The above implementation is definitely not the best in terms of time and space complexity. Here is a snippet of BoW using sklearn -
 
-```Python
+```python
 from sklearn.feature_extraction.text import CountVectorizer
 
 corpus = ["John likes to watch movies. Mary likes movies too.",
