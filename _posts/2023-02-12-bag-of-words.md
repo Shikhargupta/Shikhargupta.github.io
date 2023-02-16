@@ -3,7 +3,7 @@ title: "Code With Me : All You Need To Know About Bag of Words"
 layout: post
 ---
 
-![bow](/assets/bow.png)
+![bow](/assets/bow.png){:.centered}
 
 Natural Language Processing (NLP) is a sub division of Artificial Intelligence that deals with understanding the underlying meaning of textual information. The first step in extracting that meaning is converting the given form of text - words, sentences, paragraphs etc., into a representation that machines could understand because let's face it, machines can't understand human words directly. 
 
