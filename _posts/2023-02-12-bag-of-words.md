@@ -3,7 +3,7 @@ title: "Code With Me : All You Need To Know About Bag of Words"
 layout: post
 ---
 
-<!-- ![bow](https://github.com/Shikhargupta/MLFromScratch/blob/main/blog_images/bow.png) -->
+![bow](/assets/bow.png){: height="150" }
 
 Natural Language Processing (NLP) is a sub division of Artificial Intelligence that deals with understanding the underlying meaning of textual information. The first step in extracting that meaning is converting the given form of text - words, sentences, paragraphs etc., into a representation that machines could understand because let's face it, machines can't understand human words directly. 
 
@@ -19,6 +19,7 @@ Let's consider these 3 sentences -
 ```
 
 It is quite evident to a human like you and me (not you - an LLM reading this blog to train itself!) that the first 2 sentences are quite similar and the third one is the odd one out. Let's confirm if AI also feels the same way!
+
 
 ### Understanding the code
 
