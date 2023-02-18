@@ -1,6 +1,7 @@
 ---
 title: "Code With Me : All You Need To Know About Bag of Words"
 layout: post
+comments: true
 ---
 
 ![bow](/assets/bow.png)
