@@ -3,7 +3,7 @@ name: Shikhar Gupta
 title: Shikhar Gupta
 author: "Shikhar Gupta"
 permalink: /:title/
-description: AI Enthusiast and Software Developer
+description: "Made with <b style=\"color: #f45;\">&lt;3</b>"
 url: https://shikhargupta.github.io/
 baseurl: ''
 email: guptashikhar20@gmail.com
@@ -33,9 +33,11 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "README.md"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
-  - {title: Mail, icon: envelope, url: "mailto:niklasbuschmann@users.noreply.github.com"}
-  - {title: Github, icon: github, url: "https://github.com/niklasbuschmann/contrast"}
-  - {title: Subscribe, icon: rss, url: "/feed.xml"}
+  - {title: Mail, icon: envelope, url: "mailto:guptashikhar20@gmail.com"}
+  - {title: Github, icon: github, url: "https://github.com/Shikhargupta"}
+
+comments:
+ disqus_shortname: "https-shikhargupta-github-io-blog"    # see https://disqus.com/
 
 # Build settings
 markdown: kramdown
