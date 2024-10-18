@@ -7,11 +7,6 @@
   grid-template-columns: auto;
 }
 
-.content p {
-  line-height: 1.6em;
-  font-size: 18px;
-}
-
 .container {
   /* -webkit-box-sizing: border-box; */
   /* height: 100%; */
@@ -36,7 +31,7 @@
 }
 
 .header {
-  margin-bottom: 40px;
+  margin-bottom: 80px;
 }
 
 .upper_header {
@@ -114,16 +109,8 @@
 }
 
 .main {
-  margin-top: 40px;
   /* max-width: 600px;
   margin: 0 auto 0; */
-}
-
-.main img {
-  height: 100%;
-  width: 100%;
-  display: block;
-  margin: auto;
 }
 
 .copyright {

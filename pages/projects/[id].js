@@ -1,7 +1,6 @@
 import { getProjectData, getProjectIDs } from "../../lib/loading";
 import ProjectPageLayout from "../../components/ProjectPageLayout";
 import Head from "next/head";
-import styles from "../../styles/ProjectPageLayout.module.css";
 
 export default function Project({ projectData }) {
   return (
@@ -13,10 +12,7 @@ export default function Project({ projectData }) {
         <link rel="icon" type="image/x-icon" href="/favicon.svg" />
       </Head>
       <ProjectPageLayout projectData={projectData}>
-        <div
-          className={styles.content}
-          dangerouslySetInnerHTML={{ __html: projectData.contentHTML }}
-        />
+        <div dangerouslySetInnerHTML={{ __html: projectData.contentHTML }} />
       </ProjectPageLayout>
     </>
   );
