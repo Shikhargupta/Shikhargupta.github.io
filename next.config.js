@@ -5,5 +5,5 @@
 const debug = process.env.NODE_ENV !== 'production'
 
 module.exports = {
-  assetPrefix: !debug ? '/ibigio.github.io/' : '',
+  assetPrefix: !debug ? '/shikhargupta.github.io/' : '',
 }
